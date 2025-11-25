@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "sheet-validator-india-react",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Production-ready React component library for validating Excel/CSV sheets with built-in Indian data validators",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
