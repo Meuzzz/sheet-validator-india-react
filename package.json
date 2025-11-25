@@ -1,0 +1,66 @@
+{
+  "type": "module",
+  "name": "sheet-validator-india-react",
+  "version": "1.0.11",
+  "description": "Production-ready React component library for validating Excel/CSV sheets with built-in Indian data validators",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "jest",
+    "lint": "eslint src",
+    "type-check": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "papaparse": "^5.4.1",
+    "xlsx": "^0.18.5"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.0",
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/papaparse": "^5.3.8",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^3.26.0",
+    "tslib": "^2.6.0",
+    "typescript": "^5.1.0"
+  },
+  "keywords": [
+    "react",
+    "validator",
+    "sheet",
+    "excel",
+    "csv",
+    "aadhaar",
+    "phone",
+    "pincode",
+    "india",
+    "data-validation",
+    "xlsx",
+    "papaparse"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Meuzzz/sheet-validator-india-react"
+  },
+  "bugs": {
+    "url": "https://github.com/Meuzzz/sheet-validator-india-react/issues"
+  },
+  "homepage": "https://github.com/Meuzzz/sheet-validator-india-react#readme"
+}
